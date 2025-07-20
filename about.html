@@ -2,41 +2,49 @@
 <html>
 <head>
   <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Dosis', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .nav-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-button:hover {
+      background-color: #005fa3;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0;
+    }
+  </style>
 </head>
-<style>
-  .nav-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0077cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-
-  .nav-button:hover {
-    background-color: #005fa3;
-  }
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-
-  nav li {
-    margin: 0;
-  }
-    </style>
 <body>
     <nav>
   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="projects.html">Projects</a></li>
+    <li><a href="index.html" class="nav-button">Home</a></li>
+    <li><a href="about.html" class="nav-button">About Me</a></li>
+    <li><a href="projects.html" class="nav-button">Projects</a></li>
   </ul>
 </nav>
 
