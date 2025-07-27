@@ -64,9 +64,7 @@ nav a:hover {
 
 /* navigation style for projects page */
 .nav-2 {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
+  display: block;
 }
 
 .nav-2 img {
@@ -74,7 +72,7 @@ nav a:hover {
   height: auto;
   max-width: 200px;
   border-radius: 0;
-  display: block;
+  
 }
 
 .nav-2 img:hover {
