@@ -130,6 +130,10 @@ nav a:hover {
   --y-offset: -20px;
 }
 
+.nav-2{
+  max-width: 400px;
+  margin: 0 auto;
+}
 .nav-2 img {
   width: 100%;
   height: auto;
