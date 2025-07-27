@@ -103,13 +103,13 @@ nav a:hover {
 .image_row {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 30px;
   flex-wrap: wrap;
   align-items: flex-start;
 }
 
 .image_row img {
-  width: 150px;
+  width: 250px;
   height: auto;
   border-radius: 0;
 }
