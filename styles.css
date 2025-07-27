@@ -106,7 +106,7 @@ nav a:hover {
   }
 
   .image_row img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin-bottom: 20px;
     border-radius: 0;
@@ -124,7 +124,7 @@ nav a:hover {
 .project-text img {
   width: 150px;
   height: auto;
-  border-radius: 0;         /* remove rounded edges if needed */
+  border-radius: 0;        
 }
 
 .project-text p {
