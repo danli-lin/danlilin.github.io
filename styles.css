@@ -134,11 +134,11 @@ nav a:hover {
 
 /* Add random vertical offsets to create "arbitrary" placement */
 .image_gallery figure:nth-child(3n) {
-  --y-offset: -40px;
+  --y-offset: -80px;
 }
 .image_gallery figure:nth-child(4n) {
-  --y-offset: 30px;
+  --y-offset: 40px;
 }
 .image_gallery figure:nth-child(5n) {
-  --y-offset: -60px;
+  --y-offset: -20px;
 }
