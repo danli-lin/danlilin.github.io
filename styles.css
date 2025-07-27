@@ -129,3 +129,11 @@ nav a:hover {
 .image_gallery figure:nth-child(5n) {
   --y-offset: -20px;
 }
+
+.nav-2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
