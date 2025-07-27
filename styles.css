@@ -25,9 +25,11 @@ h2 {
 
 p {
   font-family: 'Lato', sans-serif;
+  text-align: center;
   font-size: 16px;
   line-height: 1.6;
   max-width: 600px;
+  margin: 0 auto;
 }
 .spacer {
   height: 200px; 
@@ -70,6 +72,8 @@ nav a:hover {
 
 .nav-2 img {
   display: inline;
+  width: 200px;
+  height: auto;
   transform: 0.3s ease-in-out;
 }
 
