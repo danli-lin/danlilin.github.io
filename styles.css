@@ -68,9 +68,8 @@ nav a:hover {
 }
 
 .nav-2 img {
-  width: 100%;
+  width: 200px;
   height: auto;
-  max-width: 200px;
   border-radius: 0;
   
 }
