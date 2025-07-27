@@ -135,10 +135,11 @@ nav a:hover {
   margin: 0 auto;
 }
 .nav-2 img {
+  object-fit: contain;
   width: 100%;
   height: auto;
   border-radius: 0px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  
 
 }
 
