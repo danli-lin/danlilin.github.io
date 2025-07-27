@@ -8,6 +8,10 @@ body {
   background-color: #fdfdd0;
 }
 
+.change-background{
+  background-color: #ffffff;
+}
+
 h1 {
   font-family: 'Bitter', serif;
   text-align: center;
