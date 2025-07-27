@@ -143,3 +143,10 @@ nav a:hover {
 .image_gallery figure:nth-child(5n) {
   --y-offset: -20px;
 }
+
+.portfolio-cover img{
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
