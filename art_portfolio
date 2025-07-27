@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dosis:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <body>
+  <title>Art Portfolio</title>
+  <div class="gallery">
+      <img src="images/illustration1.jpg" alt="Illustration 1">
+      <img src="images/illustration2.jpg" alt="Illustration 2">
+      <img src="images/illustration3.jpg" alt="Illustration 3">
+      <img src="images/illustration4.jpg" alt="Illustration 4">
+  </div>
+  </body>
+</head>
+</html>
