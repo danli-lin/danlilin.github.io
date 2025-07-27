@@ -70,8 +70,8 @@ nav a:hover {
 }
 
 .nav-2 img {
-  display: inline;
-  width: 400px;
+  display: center;
+  width: 300px;
   height: auto;
   transform: 0.3s ease-in-out;
 }
