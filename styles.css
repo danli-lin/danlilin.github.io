@@ -149,7 +149,7 @@ nav a:hover {
 
 /* Staggering effect */
 .image_row img:nth-child(odd) {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .image_row img:nth-child(even) {
