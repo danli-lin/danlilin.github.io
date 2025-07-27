@@ -63,17 +63,6 @@ nav a:hover {
 }
 
 /* navigation style for projects page */
-.nav-2 {
-  display: block;
-}
-
-.nav-2 img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 0;
-  
-}
 
 .nav-2 img:hover {
   transform: scale(1.05);
@@ -142,11 +131,4 @@ nav a:hover {
 }
 .image_gallery figure:nth-child(5n) {
   --y-offset: -20px;
-}
-
-.portfolio-cover img{
-  width: 100%;
-  height: 200%;
-  border-radius: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
