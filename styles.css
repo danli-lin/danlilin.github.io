@@ -34,12 +34,14 @@ p {
   line-height: 1.6;
   margin: 0 auto;
 }
+
+
 .spacer {
   height: 200px; 
 }
 
 .doublespacer {
-  height: 800px; 
+  height: 400px; 
 }
 
 
@@ -124,7 +126,18 @@ nav a:hover {
 
 /*about me page*/
 
-/*images */.image_gallery {
+/* blurb about myself */
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/*images */
+
+.image_gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 60px 40px;
