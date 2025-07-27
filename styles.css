@@ -99,38 +99,43 @@ nav a:hover {
 
 /*about me page*/
 
-/*images */
-.image_row {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: flex-start;
+/*images */.image_gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 60px 40px;
+  padding: 40px;
+  position: relative;
 }
 
-.image_row img {
-  width: 250px;
+.image_gallery figure {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  transform: translateY(var(--y-offset, 0px));
+}
+
+.image_gallery img {
+  width: 100%;
   height: auto;
-  border-radius: 0;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Staggering effect */
-.image_row img:nth-child(odd) {
-  margin-top: 50px;
+.image_gallery figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
 }
 
-.image_row img:nth-child(even) {
-  margin-top: 0;
+/* Add random vertical offsets to create "arbitrary" placement */
+.image_gallery figure:nth-child(3n) {
+  --y-offset: -40px;
 }
-
-
-@media (max-width: 400px) {
-  .image_row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image_row img {
-    max-width: 80%;
-  }
+.image_gallery figure:nth-child(4n) {
+  --y-offset: 30px;
+}
+.image_gallery figure:nth-child(5n) {
+  --y-offset: -60px;
 }
