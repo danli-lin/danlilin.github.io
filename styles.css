@@ -74,6 +74,7 @@ nav a:hover {
   height: auto;
   max-width: 200px;
   border-radius: 0;
+  display: block;
 }
 
 .nav-2 img:hover {
