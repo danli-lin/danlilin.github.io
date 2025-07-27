@@ -32,7 +32,7 @@ p {
 .spacer {
   height: 200px; 
 }
-/* Navigation styles */
+/* Navigation style for home page */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -47,14 +47,6 @@ nav ul {
   padding: 0;
 }
 
-.nav-button-2 {
-  text-decoration: none;
-  color: navy;
-  font-family: 'Bitter', sans-serif;
-  font-size: 24px;
-  text-align: center;
-  font-weight: 500;
-}
 .nav-button {
   text-decoration: none;
   color: navy;
@@ -69,7 +61,21 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* navigation style for projects page */
+.nav-2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
 
+.nav-2 img {
+  display: inline;
+  transform: 0.3s ease-in-out;
+}
+
+.nav-2 img:hover {
+  transform: scale(1.05);
+}
 /* Gallery styles */
 .gallery {
   display: grid;
@@ -107,3 +113,23 @@ nav a:hover {
   }
 }
 
+/* projects page text */
+.project-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.project-text img {
+  width: 150px;
+  height: auto;
+  border-radius: 0;         /* remove rounded edges if needed */
+}
+
+.project-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
