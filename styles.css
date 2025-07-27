@@ -70,8 +70,9 @@ nav a:hover {
 }
 
 .nav-2 img {
-  width: 400px;
-  height: 800px;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
   border-radius: 0;
 }
 
