@@ -123,7 +123,6 @@ nav a:hover {
   margin-top: 8px;
 }
 
-
 /*about me page*/
 
 /* blurb about myself */
@@ -165,19 +164,16 @@ nav a:hover {
   color: #444;
 }
 
-
-
 .nav-2{
   max-width: 400px;
   margin: 0 auto;
 }
+
 .nav-2 img {
   object-fit: contain;
   width: 100%;
   height: auto;
   border-radius: 0px;
-  
-
 }
 
 .nav-2 img:hover {
