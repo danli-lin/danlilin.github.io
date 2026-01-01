@@ -88,7 +88,7 @@ nav a:hover {
 .gallery-strip {
   display: inline-block;
   white-space: nowrap;
-  animation: swipeLeft 20s linear infinite;
+  animation: swipeLeft 10s linear infinite;
 }
 
 /* 3. Pause the animation when the mouse enters the strip */
@@ -150,6 +150,7 @@ nav a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  text-align: left;
   font-size: 18px;
   line-height: 1.6;
 }
