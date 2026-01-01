@@ -88,13 +88,10 @@ nav a:hover {
 }
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+  from { transform: translateX(0); }
+  to { transform: translateX(-calc( (600px + 20px) * 5 )); } 
 }
+
 
 .gallery-strip {
   display: flex;
