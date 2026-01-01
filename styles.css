@@ -87,6 +87,15 @@ nav a:hover {
   animation: scroll 14s linear infinite;
 }
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 .gallery-strip {
   display: flex;
 }
@@ -99,6 +108,7 @@ nav a:hover {
 .gallery-cover img {
   width: auto;
   height: 300px;
+  object-fit: cover;
   border-radius: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
@@ -109,15 +119,7 @@ nav a:hover {
   transform: scale(0.8); /* 1.0 is normal, 0.8 is 20% smaller */
 }
 
-/* 6. The Swipe Animation */
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
+
 
 .gallery {
   display: flex;
