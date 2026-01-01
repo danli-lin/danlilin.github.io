@@ -74,8 +74,6 @@ nav a:hover {
 /* navigation style for projects page */
 
 
-
-
 /* Gallery styles */
 
 .gallery-cover {
@@ -86,8 +84,7 @@ nav a:hover {
 
 .gallery-track {
   display: flex;
-  width: max-content;
-  animation: scroll 10s linear infinite;
+  animation: scroll 14s linear infinite;
 }
 
 .gallery-strip {
