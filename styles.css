@@ -87,6 +87,34 @@ nav a:hover {
   animation: scroll 10s linear infinite;
 }
 
+
+
+.gallery-strip {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery-strip img {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* smooth scaling */
+}
+
+/* 1. Stop the strip when hovering any image */
+.gallery-strip img:hover ~ .gallery-track,
+.gallery-strip img:hover {
+  animation-play-state: paused;
+}
+
+/* 2. Scale the hovered image */
+.gallery-strip img:hover {
+  transform: scale(1.1); /* increase size by 10% */
+}
+
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -95,31 +123,6 @@ nav a:hover {
     transform: translateX(-100%);
   }
 }
-
-.gallery-strip {
-  display: flex;
-  gap: 20px;
-}
-
-/* 3. Pause the animation when the mouse enters the strip */
-.gallery-cover:hover .gallery-strip {
-  animation-play-state: paused;
-}
-
-.gallery-cover img {
-  width: auto;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 0;
-  transition: transform 0.2s ease-in-out;
-}
-
-/* 5. Shrink individual photo on hover */
-.photo:hover {
-  transform: scale(0.8); /* 1.0 is normal, 0.8 is 20% smaller */
-}
-
-
 
 .gallery {
   display: flex;
