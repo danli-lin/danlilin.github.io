@@ -7,7 +7,7 @@
 
     <nav>
   <ul>
-    <li><a href="projects.html">back</a><li>
+    <li><a href="index.html">back</a><li>
     
   </ul>
   </nav>
@@ -26,6 +26,10 @@
     <figcaption>initial geometry setup - substrate is modeled as a cell mesh to facilitate accurate addition of mass and heat</figcaption>
     <div class="spacer"></div>
 
+    <h2>core physics loop - for each calculated time step<br>
+        mass addition is calculated at each cell <br>
+        heat is calculated at each cell and conduction to other cells are calculated </h2>
+        
     <p> <pre>
 for jj = 1:stsize
     Told = T; mold = m;

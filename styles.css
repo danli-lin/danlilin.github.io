@@ -84,7 +84,7 @@ nav a:hover {
 
 .gallery-track {
   display: flex;
-  animation: scroll 14s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 @keyframes scroll {
