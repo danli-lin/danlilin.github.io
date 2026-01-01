@@ -88,7 +88,7 @@ nav a:hover {
 .gallery-strip {
   display: inline-block;
   white-space: nowrap;
-  animation: swipeLeft 10s linear infinite;
+  animation: swipeLeft 15s linear infinite;
 }
 
 /* 3. Pause the animation when the mouse enters the strip */
@@ -97,7 +97,7 @@ nav a:hover {
 }
 
 .gallery-cover img {
-  width: 400px;
+  width: auto;
   height: auto;
   border-radius: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
