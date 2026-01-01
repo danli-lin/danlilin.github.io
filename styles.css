@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 28px;
   margin-top: 20px;
@@ -138,6 +138,7 @@ nav a:hover {
 
 .gallery figcaption{
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   color: #444;
   margin-top: 8px;
 }
@@ -178,6 +179,7 @@ nav a:hover {
 
 .image_gallery figcaption {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   margin-top: 8px;
   font-size: 14px;
   color: #444;
