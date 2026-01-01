@@ -3,7 +3,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Bitter:wght@100..900&family=Dosis:wght@200..800&family=Lato:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <body class="change-background">
+    
 
     <nav>
   <ul>
@@ -13,9 +13,9 @@
   </nav>
   <title>thermal simulation model - ozdemir group</title>
   <h2>thermal simulation model - ozdemir research group</h2>
-    <body>
-    <p>objective: to simulate the thermal behavior of material deposition by impinging jets during the cold spray additive manufacturing process</p>
-    </body>
+    
+  <p>objective: to simulate the thermal behavior of material deposition by impinging jets during the cold spray additive manufacturing process</p>
+    
 
   <video width="800" autoplay loop controls>
     <source src="images/Ozdemir/heatsim.mp4" type="video/mp4">
@@ -116,21 +116,25 @@ for jj = 1:stsize
     end
 </pre></p>
 
-  <img src="images/Ozdemir/tempcrosssection.jpg" alt="temperature cross section">
-    <figcaption>cross section of temperature after 100 lines of positional coordinates from stl pathway</figcaption>
-    <div class="spacer"></div>
+<section>
+    <div class="gallery">
+            <img src="images/Ozdemir/tempcrosssection.jpg" alt="temperature cross section">
+            <figcaption>cross section of temperature after 100 lines of positional coordinates from stl pathway</figcaption>
+            <div class="spacer"></div>
 
-    <img src="images/Ozdemir/finalgeo.jpg" alt="surface profile">
-    <figcaption>final surface profile after material deposition for first 100 stl coordinate positions</figcaption>
-    <div class="spacer"></div>
+            <img src="images/Ozdemir/finalgeo.jpg" alt="surface profile">
+            <figcaption>final surface profile after material deposition for first 100 stl coordinate positions</figcaption>
+            <div class="spacer"></div>
 
-    <img src="images/Ozdemir/tempcrosssection.jpg" alt="full deposition simulation cross section">
-    <figcaption>cross section after running full deposition simulation</figcaption>
+            <img src="images/Ozdemir/tempcrosssection.jpg" alt="full deposition simulation cross section">
+            <figcaption>cross section after running full deposition simulation</figcaption>
 
-    <h3>mistakes</h3>
-    <img src="images/Ozdemir/SurfaceTemp-12.15.jpg" alt="mistake 1">
-    <figcaption>mistake 1: incorrect calculation of TAWI causing NaNs in temperature matrix</figcaption>
-
+            <h3>mistakes</h3>
+            <img src="images/Ozdemir/SurfaceTemp-12.15.jpg" alt="mistake 1">
+            <figcaption>mistake 1: incorrect calculation of TAWI causing NaNs in temperature matrix</figcaption>
+    </div>
+</section>
+    
     
   </body>
 </head>
