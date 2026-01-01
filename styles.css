@@ -88,10 +88,13 @@ nav a:hover {
 }
 
 @keyframes scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-calc( (600px + 20px) * 5 )); } 
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
-
 
 .gallery-strip {
   display: flex;
@@ -105,7 +108,7 @@ nav a:hover {
 
 .gallery-cover img {
   width: auto;
-  height: 600px;
+  height: 500px;
   object-fit: cover;
   border-radius: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -128,7 +131,7 @@ nav a:hover {
 }
 
 .gallery img {
-  width: 450px;
+  width: 600px;
   height: auto;
   border-radius: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
