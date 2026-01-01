@@ -80,15 +80,19 @@ nav a:hover {
 
 .gallery-cover {
   overflow: hidden;
+  width: 100%;
   background: #ffefa5;
   white-space: nowrap;
 }
 
-/* 2. The Moving Strip */
+.gallery-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+}
+
 .gallery-strip {
-  display: inline-block;
-  white-space: nowrap;
-  animation: swipeLeft 15s linear infinite;
+  display: flex;
 }
 
 /* 3. Pause the animation when the mouse enters the strip */
@@ -110,9 +114,13 @@ nav a:hover {
 }
 
 /* 6. The Swipe Animation */
-@keyframes swipeLeft {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); } /* Moves halfway through the duplicated set */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .gallery {
